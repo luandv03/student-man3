@@ -21,15 +21,15 @@ class EditStudentFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val nameEditText = view.findViewById<EditText>(R.id.edit_hoten)
-        val idEditText = view.findViewById<EditText>(R.id.edit_mssv)
+//        val nameEditText = view.findViewById<EditText>(R.id.edit_hoten)
+//        val idEditText = view.findViewById<EditText>(R.id.edit_mssv)
         val saveButton = view.findViewById<Button>(R.id.button_save)
 
         // Logic to pre-fill the EditText fields with the selected student's information
 
         saveButton.setOnClickListener {
-            val name = nameEditText.text.toString()
-            val id = idEditText.text.toString()
+//            val name = nameEditText.text.toString()
+//            val id = idEditText.text.toString()
             // Logic to update student information
             findNavController().navigateUp()
         }

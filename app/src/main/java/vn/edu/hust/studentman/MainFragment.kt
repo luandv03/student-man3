@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 class MainFragment : Fragment() {
 
     private val students = mutableListOf(
-        StudentModel("Đinh Văn Luận", "SV001"),
+        StudentModel("Đinh Văn Luận", "20215083"),
         StudentModel("Phan Trung Đức", "SV002"),
         StudentModel("Lê Văn Tâm", "SV003"),
         StudentModel("Phạm Thị Dung", "SV004"),
